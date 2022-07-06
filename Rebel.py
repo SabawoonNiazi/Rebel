@@ -387,35 +387,35 @@ def follow(ses,coki):
 	get = r.find('a', string='Follow').get('href')
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
 
-logo = ("""\1;32[1;37m _     _            _         _            
-( )   ( )          ( )     _ ( )           
-`\`\_/'/'_ _   ___ | |__  (_)| |/')    _ _ 
-  `\ /'/'_` )/',__)|  _ `\| || , <   /'_` )
-   | |( (_| |\__, \| | | || || |\`\ ( (_| |
-   (_)`\__,_)(____/(_) (_)(_)(_) (_)`\__,_)
-                                           
+logo = ("""\1;32[1;37m
+    ____       __         __
+   / __ \___  / /_  ___  / /
+  / /_/ / _ \/ __ \/ _ \/ / 
+ / _, _/  __/ /_/ /  __/ /  
+/_/ |_|\___/_.___/\___/_/   
+                                                
                                                
 
                                                            \037
 __________________×______________________
   
-  Owner  :    YASHIKA SARANG
+  Owner  :    REBEL KING
 
-QUALITY  :    JATAV CHORI
+QUALITY  :    UPDATE TOOL JUNE 2022
 
-SUN BE   :    BETA TERI AUKAT SE BAHAR HAi Y CHORI 
+LISTEN   :    REBEL TIME START NOW 
  
-OY SUN   :    DILL MAI AATI HUN SAMAJH MAI NHI 
+OY SUN   :    MAI WHI HUN JISKO TERI GIRLFRIEND LINE MARTI HAI 
 
-INSTAGRAM:    Official_NASHA_03....BINDASH_YASHIKA
+INSTAGRAM:    _REBEL_7351.....
 
- Github  :    BABU KI BABU HU YWR
+ Github  :    MAKE BY MAJID_KHAN-Whatsapp nu.9050966900
 
-Facebook :    YASHIKA SARANG
+Facebook :    REBEL_KING
   
- Youtube :    TECHNICAL_Boss07
+ Youtube :    REBEL_KING
   
-Whatsap  :    +919050***900
+Whatsap  :    +916397778187
 __________________×______________________\033[1;37m""")
 
 class Main:
